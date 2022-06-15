@@ -46,7 +46,7 @@ class EditProfile extends Component {
             
             try
             {
-                const response = await axios.patch(`${config.api.invokeUrl}/users/${this.state.email}`, params);
+                const response = await axios.patch(`${config.api.invokeUrl}/users?email=${this.state.email}`, params);
 
                 if (response.status === 204)
                 {
