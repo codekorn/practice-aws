@@ -13,7 +13,7 @@
     {
         "AWSS3":
         {
-            "bucket": "cardgenprofilepictures233133-main",
+            "bucket": "practice-aws-codekorn",
             "region": "us-east-1"
         }
     }
